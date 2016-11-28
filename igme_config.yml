@@ -13,6 +13,14 @@ extra_resources:
     link: https://en.wikipedia.org/wiki/Matrix_(mathematics)
   - title: A Ted-Ed video on how to add and multiply matrices (with animations!)
     link: http://ed.ted.com/lessons/how-to-organize-add-and-multiply-matrices-bill-shillito
+  - title: A math.stackexchange post asking about the reasoning behind matrix multiplication
+    link: http://math.stackexchange.com/questions/31725/intuition-behind-matrix-multiplication
+  - title: Another math.stackexchange post regarding matrix multiplication
+    link: http://math.stackexchange.com/questions/271927/why-historically-do-we-multiply-matrices-as-we-do
+  - title: A quora question regarding matrix multiplication
+    link: https://www.quora.com/Linear-Algebra-Why-is-matrix-multiplication-defined-the-way-it-is-1
+  - title: Another in-depth article about matrices
+    link: https://nolaymanleftbehind.wordpress.com/2011/07/10/linear-algebra-what-matrices-actually-are/
 connections:
   - series: Vector Mathematics
     title: Projection and Rejection
