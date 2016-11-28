@@ -51,7 +51,7 @@ int main()
 	// Matrices enjoy a place of prominence in games and simulation.
 	// First question we should ask ourselves is "What is a matrix?"
 	
-	// A short, but dense TL;DR is:
+	// A short, but mathematically dense answer is:
 	// A matrix is a way to represent any linear map between two modules,
 	//  including finite-dimensional vector spaces with a basis defined for each space.
 	//  In our case, these vector spaces are almost always Euclidean spaces, particularly R2, R3, or R4.
