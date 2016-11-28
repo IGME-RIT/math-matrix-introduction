@@ -1,0 +1,18 @@
+series: Matrix Mathematics
+title: Introduction to matrices
+author:
+  name: Andrew Litfin
+  email:
+  github: astrodude80
+description: This tutorial explains the basics of matrices, what they are and what they represent.
+language: C++
+tags:
+  - Math
+extra_resources:
+  - title: The Wikipedia article on matrices.
+    link: https://en.wikipedia.org/wiki/Matrix_(mathematics)
+  - title: A Ted-Ed video on how to add and multiply matrices (with animations!)
+    link: http://ed.ted.com/lessons/how-to-organize-add-and-multiply-matrices-bill-shillito
+connections:
+  - series: Vector Mathematics
+    title: Projection and Rejection
