@@ -59,6 +59,9 @@ Matrix3D operator*(Matrix3D l, Matrix3D r);
 Vector3D operator*(Matrix3D m, Vector3D v);
 Vector3D operator*(Vector3D v, Matrix3D m);
 
+bool operator==(Matrix3D l, Matrix3D r);
+bool operator!=(Matrix3D l, Matrix3D r);
+
 float Determinant(Matrix3D m);
 
 Matrix3D Inverse(Matrix3D m);

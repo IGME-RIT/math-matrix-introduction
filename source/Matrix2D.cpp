@@ -126,6 +126,16 @@ Vector2D operator*(Vector2D v, Matrix2D m)
 	return v.x * m.row(0) + v.y * m.row(1);
 }
 
+bool operator==(Matrix2D l, Matrix2D r)
+{
+	return ((l[0] == r[0]) && (l[1] == r[1]));
+}
+
+bool operator!=(Matrix2D l, Matrix2D r)
+{
+	return !(l == r);
+}
+
 float Determinant(Matrix2D m)
 {
 	return m(0, 0) * m(1, 1) - m(0, 1) * m(1, 0);

@@ -115,6 +115,16 @@ Vector4D operator*(Vector4D v, Matrix4D m)
 	return v.x * m.row(0) + v.y * m.row(1) + v.z * m.row(2) + v.w * m.row(3);
 }
 
+bool operator==(Matrix4D l, Matrix4D r)
+{
+	return ((l[0] == r[0]) && (l[1] == r[1]) && (l[2] == r[2]) && (l[3] == r[3]));
+}
+
+bool operator!=(Matrix4D l, Matrix4D r)
+{
+	return !(l == r);
+}
+
 float Determinant(Matrix4D m)
 {
 	const Vector3D& a = reinterpret_cast<const Vector3D&>(m[0]);

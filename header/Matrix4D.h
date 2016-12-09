@@ -59,6 +59,9 @@ Matrix4D operator*(Matrix4D l, Matrix4D r);
 Vector4D operator*(Matrix4D m, Vector4D v);
 Vector4D operator*(Vector4D v, Matrix4D m);
 
+bool operator==(Matrix4D l, Matrix4D r);
+bool operator!=(Matrix4D l, Matrix4D r);
+
 float Determinant(Matrix4D m);
 
 Matrix4D Inverse(Matrix4D m);

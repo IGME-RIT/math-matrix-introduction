@@ -108,6 +108,16 @@ Vector3D operator*(Vector3D v, Matrix3D m)
 	return v.x * m.row(0) + v.y * m.row(1) + v.z * m.row(2);
 }
 
+bool operator==(Matrix3D l, Matrix3D r)
+{
+	return ((l[0] == r[0]) && (l[1] == r[1]) && (l[2] == r[2]));
+}
+
+bool operator!=(Matrix3D l, Matrix3D r)
+{
+	return !(l == r);
+}
+
 float Determinant(Matrix3D m)
 {
 	return m(0, 0) * m(1, 1) * m(2, 2) + m(0, 1) * m(1, 2) * m(2, 0) + m(0, 2) * m(1, 0) * m(2, 1)

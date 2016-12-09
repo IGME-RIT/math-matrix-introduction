@@ -99,6 +99,12 @@ Vector2D operator*(Matrix2D m, Vector2D v);
 // Returns the product of v (as a row vector) and m.
 Vector2D operator*(Vector2D v, Matrix2D m);
 
+// Compares l and r. Returns true if l and r are equal.
+bool operator==(Matrix2D l, Matrix2D r);
+
+// Negation of ==
+bool operator!=(Matrix2D l, Matrix2D r);
+
 // Returns the determinant of m (the area of the parallelogram with sides m[0] and m[1]).
 float Determinant(Matrix2D m);
 
