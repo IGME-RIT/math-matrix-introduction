@@ -1,6 +1,10 @@
-# Matrices and Vectors
+# Introduction to matrices
 
-This tutorial explains how vectors and matrices interact.
+This tutorial explains the basics of matrices. By the end of this tutorial you should know the following:
+
+What is a matrix?
+How is a matrix represented?
+How can we add, subtract, and multiply matrices?
 
 # Setup
 
