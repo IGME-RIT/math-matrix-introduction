@@ -2,9 +2,9 @@
 
 This tutorial explains the basics of matrices. By the end of this tutorial you should know the following:
 
-What is a matrix?
-How is a matrix represented?
-How can we add, subtract, and multiply matrices?
+1. What is a matrix?
+2. How is a matrix represented?
+3. How can we add, subtract, and multiply matrices?
 
 # Setup
 
